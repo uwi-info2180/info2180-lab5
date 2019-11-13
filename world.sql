@@ -34,7 +34,7 @@ CREATE TABLE `cities` (
   `district` char(20) NOT NULL default '',
   `population` int(11) NOT NULL default '0',
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4080 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=4080 DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `cities`
@@ -4146,7 +4146,7 @@ CREATE TABLE `countries` (
   `capital` int(11) default NULL,
   `code2` char(2) NOT NULL default '',
   PRIMARY KEY  (`code`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `countries`
@@ -4407,7 +4407,7 @@ CREATE TABLE `languages` (
   `official` enum('T','F') NOT NULL default 'F',
   `percentage` float(4,1) NOT NULL default '0.0',
   PRIMARY KEY  (`country_code`,`language`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `languages`
