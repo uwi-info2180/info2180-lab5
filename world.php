@@ -1,6 +1,6 @@
 <?php
-$host = getenv('IP');
-$username = 'lab7_user';
+$host = 'localhost';
+$username = 'lab5_user';
 $password = '';
 $dbname = 'world';
 
